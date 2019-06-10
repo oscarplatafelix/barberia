@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
-import { Container, Row, Col, Image, Navbar, Nav } from 'react-bootstrap';
+import { Container, Image, Navbar, Nav } from 'react-bootstrap';
 import Scrollspy from 'react-scrollspy';
 class Header extends React.Component {
     state = {
@@ -23,9 +23,6 @@ class Header extends React.Component {
         this.setState({ top: el.offsetTop, height: el.offsetHeight });
         window.addEventListener('scroll', this.handleScroll.bind(this));
     }
-    onActive(e){
-        console.log("E", e);
-    }
     render() {
         return (
             <header className={this.state.isTop ? 'header' : 'header affix'}>
@@ -39,7 +36,7 @@ class Header extends React.Component {
                             <Nav>
                                 <Scrollspy items={['nosotros', 'servicios', 'precios', 'social']} currentClassName="isActive"
                                     style={{ display: 'contents', msFlexDirection: 'column', flexDirection: 'column', paddingLeft: 0, marginBottom: 0, listStyle: 'none' }}>
-                                    <Nav.Link onClick={this.onActive} id="hola" href="#nosotros">Nosotros</Nav.Link>
+                                    <Nav.Link id="hola" href="#nosotros">Nosotros</Nav.Link>
                                     <Nav.Link href="#servicios">Servicios</Nav.Link>
                                     <Nav.Link href="#precios">Precios</Nav.Link>
                                     <Nav.Link href="#social">Redes Sociales</Nav.Link>
