@@ -2,7 +2,7 @@
   "name": "school_dance",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://dancestudio.novacode.com.mx",
+  "homepage": "http://barberia.novacode.com.mx",
   "dependencies": {
     "aphrodite": "^2.3.1",
     "bootstrap": "^4.3.1",
@@ -13,10 +13,8 @@
     "react-dom": "^16.8.6",
     "react-id-swiper": "^2.1.2",
     "react-preloaders": "^2.1.4",
-    "react-rev-slider": "^1.0.1",
     "react-scripts": "3.0.1",
     "react-scrollspy": "^3.4.0",
-    "react-sticky-el": "^1.0.20",
     "swiper": "^4.5.0"
   },
   "scripts": {
