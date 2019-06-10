@@ -372,6 +372,16 @@ ol {
 }
 
 @media (min-width: 768px) {
+    .header {
+        position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    text-align: left;
+    width: 100%;
+    z-index: 10;
+    padding: 30px 0;
+    }
     .header-center .navbar .navbar-nav {
         display: inline-block;
         float: none;
@@ -396,9 +406,29 @@ ol {
     .transparent-header {
         background: none !important;
     }
+    .header {
+        position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    text-align: left;
+    width: 100%;
+    z-index: 10;
+    padding: 30px 0;
+    }
 }
 
 @media (max-width: 768px) {
+    .header {
+        position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    text-align: left;
+    width: 100%;
+    z-index: 10;
+    padding: 30px 0;
+    }
     .header-center .navbar-brand > img {
         width: 80px;
     }
@@ -910,6 +940,16 @@ ol {
 }
 
 @media (min-width: 992px) {
+    .header {
+        position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    text-align: left;
+    width: 100%;
+    z-index: 10;
+    padding: 30px 0;
+    }
     .navbar-collapse {
         padding-right: 0;
         padding-left: 0;
@@ -958,6 +998,16 @@ ol {
 }
 
 @media (min-width: 992px) {
+    .header {
+        position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    text-align: left;
+    width: 100%;
+    z-index: 10;
+    padding: 30px 0;
+    }
     .yamm .dropdown-menu {
         margin-top: 14px !important;
     }
@@ -1026,6 +1076,16 @@ ol {
 }
 
 @media (min-width: 768px) {
+    .header {
+        position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    text-align: left;
+    width: 100%;
+    z-index: 10;
+    padding: 30px 0;
+    }
     .navbar-nav > li > .dropdown-menu {
         border: 1px solid #f4f4f7 !important;
     }
@@ -1042,6 +1102,16 @@ ol {
 }
 
 @media (max-width: 1200px) {
+    .header {
+        position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    text-align: left;
+    width: 100%;
+    z-index: 10;
+    padding: 30px 0;
+    }
     .nav > li > a {
         padding: 1em 0.7em;
     }
@@ -1078,12 +1148,27 @@ ol {
         padding: 0;
         margin: 0 auto;
     }
+    .navbar-default {
+        width: 100%;
+        background-color: #222222 !important;
+    }
 }
 
 @media (max-width: 768px) {
     .navbar-default .navbar-collapse,
     .navbar-default .navbar-form {
-        border-color: transparent;
+        border-color: red;
+        background-color: #222222 !important;
+    }
+    .header {
+        position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    text-align: left;
+    width: 100%;
+    z-index: 10;
+    padding: 30px 0;
     }
     .navbar-nav > li > a {
         border-bottom: 0 !important;
@@ -1325,6 +1410,16 @@ body.leftside .navbar-toggle {
 }
 
 @media screen and (max-width:1180px) {
+    .header {
+        position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    text-align: left;
+    width: 100%;
+    z-index: 10;
+    padding: 30px 0;
+    }
     .row-offcanvas {
         position: relative;
         -webkit-transition: all .25s ease-out;
@@ -1344,7 +1439,18 @@ body.leftside .navbar-toggle {
     }
 }
 
-@media screen and (min-width:1180px) {}
+@media screen and (min-width:1180px) {
+    .header {
+        position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    text-align: left;
+    width: 100%;
+    z-index: 10;
+    padding: 30px 0;
+    }
+}
 
 @media (max-width:991px) {
     #vertical .navbar-default .navbar-nav li .vertical-menu {
